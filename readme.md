@@ -9,7 +9,7 @@ are never publicly accessible.
 
 1. Copy `config/default.example.json` and populate its values according to the
    table below
-2. Run `npm start`
+2. Run `flatpack`
 
 ## Config
 
