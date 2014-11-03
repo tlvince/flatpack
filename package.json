@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "CouchDB database creation helper",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "flatpack": "index.js"
+  },
   "scripts": {
     "start": "./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +23,13 @@
     "config": "^1.7.0",
     "inquirer": "^0.8.0",
     "request": "^2.47.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlvince/flatpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/flatpack/issues"
+  },
+  "homepage": "https://github.com/tlvince/flatpack"
 }
