@@ -1,0 +1,25 @@
+{
+  "name": "flatpack",
+  "version": "1.0.0",
+  "description": "CouchDB database creation helper",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "couchdb"
+  ],
+  "author": "Tom Vincent <github@tlvince.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^0.9.2"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.10",
+    "config": "^1.7.0",
+    "inquirer": "^0.8.0",
+    "request": "^2.47.0"
+  }
+}
